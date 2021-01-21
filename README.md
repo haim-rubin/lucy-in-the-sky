@@ -3,6 +3,7 @@ Gudlines/Description
 
 
 1. Backend
+    - Run backend: from in 'backend' folder run npm start
     - APIs
         * Because we needed to retrieve data from 3rd party so I splitted the API into 2 different APIs
         * 3rdParty - Proxy to the images data
@@ -22,6 +23,7 @@ Gudlines/Description
 
 
 2. Frontend
+    - Run frontend: from in 'frontend' folder run npm start
     - ImageDetails      - for displaying image info like favorite/description/image
     - LineImages        - for displaying images (3/other) in line 
     - Results           - for displaying images in cunck of lines
