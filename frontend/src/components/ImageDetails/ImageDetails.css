@@ -1,0 +1,32 @@
+
+.image-details {margin: 1rem; position: relative;}
+.image-details .extra-info{ display: flex;}
+.image-details .description{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    padding: .25rem;
+    background: rgb(255,255,255);
+    background-color: rgba(26, 26, 114, 0.3);
+    border-radius: .2rem;
+    margin: 1rem;
+    color: whitesmoke;
+}
+.image-details .description.show{
+    visibility:visible;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+.image-details .thumbnail img {
+    border-radius: 1rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.favorite{padding: .1rem .5rem;}
+.fa.fa-heart{color: #fff; font-size: 2rem; box-shadow: tomato;}
+.fa.fa-heart.is-favorite {color:tomato;}
+.image-details .extra-info {
+    position: absolute;
+    bottom: 2rem;
+}
+
